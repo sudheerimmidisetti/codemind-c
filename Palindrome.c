@@ -10,6 +10,6 @@ int main()
     	r=r+t%10;
     	t=t/10;
  	}
- 	if (n==r)  printf("True");
- 	else       printf("False");
+ 	if (n==r)  printf("Palindrome");
+ 	else       printf("Not Palindrome");
 }
