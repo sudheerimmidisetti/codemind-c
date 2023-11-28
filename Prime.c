@@ -1,21 +1,21 @@
-#include <stdio.h>
+#include<stdio.h>
 int main()
 {
-    int n,i,c=0;
+    int n,i,j=0;
     scanf("%d",&n);
     for(i=1;i<=n;i++)
     {
-        if(n%i==0)
-        {
-            c++;
-        }
+    	if(n%i==0)
+    	{
+    		j++;
+    	}
     }
-    if(c==2)
-    {
-        printf("Prime");
-    }
+    if(j==2)
+	{
+		printf("Prime");
+	}
     else
-    {
-        printf("Not Prime");
-    }
+	{
+		printf("Not Prime");
+	}
 }
